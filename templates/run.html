@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Router: {{ host }}-{{ server }}</h1>
+    <div class="container">
+        <p>{{ interface }}</p>
+    </div>
+    <h2>Running Config</h2>
+    <div class="container">
+	    <p> {{ running_config }}</p>
+    </div>
+{% endblock content %}

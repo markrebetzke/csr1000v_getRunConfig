@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+    {% for e in posts %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ e.first_name }}</a>
+              <small class="text-muted">{{ e.email }}</small>
+            </div>
+        </article>
+    {%  endfor %}
+{% endblock %}
