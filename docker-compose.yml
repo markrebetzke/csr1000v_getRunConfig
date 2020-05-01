@@ -18,7 +18,7 @@ services:
     ports:
       - 8080:80
     volumes:
-     - /home/mre/Documents/CiscoSEMonthly/csrPythonAPI/csrPythonAPI/owncloud/files:/mnt/data
+     - <your directory>/mnt/data
 
   mysql:
     image: mariadb
@@ -26,4 +26,4 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: cisco
     volumes:
-     - /home/mre/Documents/CiscoSEMonthly/csrPythonAPI/csrPythonAPI/owncloud/db:/var/lib/mysql
+     - <your directory>:/var/lib/mysql
