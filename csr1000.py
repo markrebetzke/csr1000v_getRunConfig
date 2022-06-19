@@ -6,8 +6,8 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 ## Adding global attributes
 
-roomId = "Y2lzY29zcGFyazovL3VzL1JPT00vZWI4MDU0YzAtM2NkOC0xMWVhLThhMTQtNTlkNTU4ZjFhMmI0"
-webexToken = "YjIwMjRhMmItOGRhYi00MGE4LTk5OTctZDRhNDcwZDA4NzMwMDY3MGYwZTktZjJi_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f"
+roomId = ""
+webexToken = ""
 
 def main():
   server = "192.168.42.1"
